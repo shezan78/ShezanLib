@@ -3,7 +3,7 @@
 Last updated for the Beta 5 release
 
 Booting the Library
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shezan78/ShezanLib/main/ShezansUILibSource.lua'))()
 Secure Mode
 If the game you're trying to run Rayfield Interface Suite on, is detecting or crashing when you use Rayfield Interface Suite, try using Secure Mode:
 
