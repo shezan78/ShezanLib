@@ -1,8 +1,4 @@
-Read here for better formatting
-https://github.com/shlexware/Rayfield/blob/main/Documentation.md
 
-Rayfield Interface Suite
-This is the written documentation for Rayfield Interface Suite
 
 Last updated for the Beta 5 release
 
