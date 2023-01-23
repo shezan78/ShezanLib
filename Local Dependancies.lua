@@ -1,25 +1,25 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shezan78/ShezanLib/main/ShezansUILibSource.lua'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Rayfield Example Window",
-	LoadingTitle = "Rayfield Interface Suite",
-	LoadingSubtitle = "by Sirius",
+	Name = "Test",
+	LoadingTitle = "Loading Shezans GUI",
+	LoadingSubtitle = "by Shezan",
 	ConfigurationSaving = {
 		Enabled = true,
-		FolderName = "Rayfield Interface Suite",
-		FileName = "Big Hub"
+		FolderName = "Shezanscool",
+		FileName = "Shezans Lib"
 	},
-	KeySystem = false, -- Set this to true to use their key system
+	KeySystem = true, -- Set this to true to use their key system
 	KeySettings = {
-		Title = "Sirius Hub",
+		Title = "Shezan Hub",
 		Subtitle = "Key System",
-		Note = "Join the discord (discord.gg/sirius)",
-		SaveKey = true,
-		Key = "ABCDEF"
+		Note = "Key is shezan",
+		SaveKey = false,
+		Key = "shezan"
 	}
 })
 
-Rayfield:Notify("Title Example", "Content/Description Example", 4483362458) -- Notfication -- Title, Content, Image
+Rayfield:Notify("Whitelist", "Checking for whitelist. . .", 4483362458)
 
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
